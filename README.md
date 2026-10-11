@@ -11,6 +11,22 @@
 Given two casual smartphone or camera sweeps of an indoor room recorded at different times, RoomShift 3D reconstructs dense 3D geometry, resolves the unknown monocular scale gauge and 3D coordinate transformation ($\text{Sim}(3)$), isolates spatial discrepancies, and classifies objects into **Moved**, **Added**, **Removed**, **Unchanged**, and **Uncertain** categories with geometric evidence.
 
 ---
+## Application Screenshots
+
+### Dashboard
+The main interface for exploring RoomShift 3D.
+
+![RoomShift 3D Dashboard](docs/images/dashboard.png)
+
+### 3D Visualization
+A visualization of the reconstructed scene and spatial differences.
+
+![3D Scene Visualization](docs/images/3d-visualization.png)
+
+### Detection Results
+The output interface displaying the results of the analysis.
+
+![Change Detection Results](docs/images/change-report.png)
 
 ## Architecture & System Workflow
 
