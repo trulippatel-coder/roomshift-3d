@@ -1,0 +1,11 @@
+# RoomShift 3D Core Dependencies
+# Compatible with macOS Apple Silicon (arm64) and standard x86_64 CPU environments
+
+numpy>=2.0.0
+scipy>=1.14.0
+opencv-python>=4.10.0
+open3d>=0.18.0
+streamlit>=1.38.0
+plotly>=5.24.0
+pillow>=10.4.0
+pytest>=8.3.0

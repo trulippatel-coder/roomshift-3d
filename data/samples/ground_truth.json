@@ -1,0 +1,209 @@
+{
+  "description": "RoomShift 3D Synthetic Benchmark Indoor Environment",
+  "objects_before": [
+    {
+      "name": "Table",
+      "center": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "size": [
+        1.2,
+        0.8,
+        0.5
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Desk Lamp",
+      "center": [
+        0.4,
+        -0.25,
+        0.25
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.4
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Floor",
+      "center": [
+        0.0,
+        0.0,
+        -0.6
+      ],
+      "size": [
+        3.0,
+        3.0,
+        0.05
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Back Wall",
+      "center": [
+        0.0,
+        1.2,
+        0.2
+      ],
+      "size": [
+        3.0,
+        0.1,
+        1.6
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Office Chair",
+      "center": [
+        -0.5,
+        -0.4,
+        -0.1
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.7
+      ],
+      "change_type": "moved"
+    },
+    {
+      "name": "Laptop",
+      "center": [
+        -0.2,
+        0.05,
+        0.12
+      ],
+      "size": [
+        0.3,
+        0.22,
+        0.15
+      ],
+      "change_type": "removed"
+    },
+    {
+      "name": "Hidden Corner Box",
+      "center": [
+        1.3,
+        1.0,
+        -0.3
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "change_type": "uncertain"
+    }
+  ],
+  "objects_after": [
+    {
+      "name": "Table",
+      "center": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "size": [
+        1.2,
+        0.8,
+        0.5
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Desk Lamp",
+      "center": [
+        0.4,
+        -0.25,
+        0.25
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.4
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Floor",
+      "center": [
+        0.0,
+        0.0,
+        -0.6
+      ],
+      "size": [
+        3.0,
+        3.0,
+        0.05
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Back Wall",
+      "center": [
+        0.0,
+        1.2,
+        0.2
+      ],
+      "size": [
+        3.0,
+        0.1,
+        1.6
+      ],
+      "change_type": "unchanged"
+    },
+    {
+      "name": "Office Chair",
+      "center": [
+        0.45,
+        -0.4,
+        -0.1
+      ],
+      "size": [
+        0.45,
+        0.45,
+        0.7
+      ],
+      "change_type": "moved"
+    },
+    {
+      "name": "Coffee Cup",
+      "center": [
+        0.1,
+        0.15,
+        0.14
+      ],
+      "size": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "change_type": "added"
+    }
+  ],
+  "ground_truth_changes": {
+    "moved": [
+      "Office Chair (shifted across table)"
+    ],
+    "removed": [
+      "Laptop (missing from table in after video)"
+    ],
+    "added": [
+      "Coffee Cup (new on table in after video)"
+    ],
+    "unchanged": [
+      "Table",
+      "Floor",
+      "Back Wall",
+      "Desk Lamp"
+    ],
+    "uncertain_unobserved": [
+      "Hidden Corner Box (obstructed behind divider)"
+    ]
+  }
+}
